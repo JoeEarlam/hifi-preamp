@@ -1,0 +1,2 @@
+# hifi preamp
+A small, digitally controlled hifi preamp, with remote input and volume selection
