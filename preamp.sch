@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:preamp-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -147,7 +147,7 @@ F 3 "~" H 4650 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom:PGA2311 U6
+L preamp-rescue:PGA2311-custom U6
 U 1 1 5CBB4769
 P 7225 1525
 F 0 "U6" H 7200 2290 50  0000 C CNN
@@ -1481,7 +1481,7 @@ F 3 "~" H 2575 750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L custom:OLED_128x64 U8
+L preamp-rescue:OLED_128x64-custom U8
 U 1 1 5CD308C7
 P 11025 2900
 F 0 "U8" H 11203 2929 50  0000 L CNN
@@ -1595,7 +1595,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 900  5000 1325
 $Comp
-L custom:NJM2753 U3
+L preamp-rescue:NJM2753-custom U3
 U 1 1 5D00A564
 P 4025 1575
 F 0 "U3" H 4025 2190 50  0000 C CNN
