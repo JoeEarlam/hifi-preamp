@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:preamp-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -695,17 +695,6 @@ Wire Wire Line
 Connection ~ 9750 3450
 Wire Wire Line
 	9750 3450 9750 3475
-$Comp
-L Connector:Conn_01x03_Male J1
-U 1 1 5CD88BA8
-P 625 5650
-F 0 "J1" H 597 5582 50  0000 R CNN
-F 1 "AC" H 597 5673 50  0000 R CNN
-F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 625 5650 50  0001 C CNN
-F 3 "~" H 625 5650 50  0001 C CNN
-	1    625  5650
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	825  5550 950  5550
 Wire Wire Line
@@ -1923,4 +1912,15 @@ Wire Wire Line
 Connection ~ 4650 7500
 Wire Wire Line
 	4650 7500 5125 7500
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 5CD88BA8
+P 625 5650
+F 0 "J1" H 597 5582 50  0000 R CNN
+F 1 "AC" H 597 5673 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 625 5650 50  0001 C CNN
+F 3 "~" H 625 5650 50  0001 C CNN
+	1    625  5650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
