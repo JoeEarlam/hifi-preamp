@@ -1,5 +1,10 @@
 EESchema Schematic File Version 4
+<<<<<<< HEAD
 EELAYER 30 0
+=======
+LIBS:preamp-cache
+EELAYER 29 0
+>>>>>>> fbc60fb589af2625096bef4c096071e36e02e75b
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -693,6 +698,7 @@ Wire Wire Line
 	9425 6000 9425 5950
 Connection ~ 9325 6000
 Wire Wire Line
+<<<<<<< HEAD
 	9325 6000 9325 6025
 $Comp
 L Connector:Conn_01x03_Male J1
@@ -705,6 +711,9 @@ F 3 "~" H 625 5650 50  0001 C CNN
 	1    625  5650
 	1    0    0    1   
 $EndComp
+=======
+	9750 3450 9750 3475
+>>>>>>> fbc60fb589af2625096bef4c096071e36e02e75b
 Wire Wire Line
 	825  5550 950  5550
 Wire Wire Line
@@ -1922,6 +1931,7 @@ Wire Wire Line
 Connection ~ 4650 7500
 Wire Wire Line
 	4650 7500 5125 7500
+<<<<<<< HEAD
 Text Notes 3725 2225 0    50   ~ 0
 1: CNT2 L CNT1 L\n2: CNT2 L CNT1 H\n3: CNT2 H CNT1 X
 Wire Wire Line
@@ -1957,4 +1967,17 @@ Text Notes 8975 3225 0    50   ~ 0
 MCU
 Text Notes 7100 5975 0    50   ~ 0
 oops, leaving SPI pinout error for code compatibility
+=======
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 5CD88BA8
+P 625 5650
+F 0 "J1" H 597 5582 50  0000 R CNN
+F 1 "AC" H 597 5673 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 625 5650 50  0001 C CNN
+F 3 "~" H 625 5650 50  0001 C CNN
+	1    625  5650
+	1    0    0    -1  
+$EndComp
+>>>>>>> fbc60fb589af2625096bef4c096071e36e02e75b
 $EndSCHEMATC
